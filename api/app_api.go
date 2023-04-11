@@ -6,8 +6,14 @@ import (
 	"net/http"
 )
 
+// код создания дб
+// CREATE TABLE neo_count (
+//                           date DATE NOT NULL,
+//                           count INTEGER NOT NULL
+//);
+
 func main() {
-	// Введите свой ключ API  DC8v9CmHBaoelbzMGPGwncI1GfDRN2JuPqL6Jb1X
+	// Введите свой ключ API  ключ DC8v9CmHBaoelbzMGPGwncI1GfDRN2JuPqL6Jb1X
 	apiKey := "API"
 
 	// Установите даты начала и конца в нужном формате: "YYYY-MM-DD" по правилам 7 дней
